@@ -1,0 +1,14 @@
+@import url("header.css");
+@import url("projects.css");
+@import url("footer.css");
+@import url("privacy.css");
+
+body {
+    font-family: Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
