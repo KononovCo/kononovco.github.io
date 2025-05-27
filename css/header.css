@@ -1,0 +1,58 @@
+header {
+    border-bottom: 5px solid #ff8c00;
+    display: flex;
+}
+
+header .item {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+header .item:last-child {
+    background-color: #ff8c00;
+    justify-content: center;
+    padding: 10px;
+}
+
+header #favicon {
+    background-image: url("../favicon.ico");
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+
+header h1 {
+    color: #ff8c00;
+    margin: 0 25%;
+    position: absolute;
+}
+
+header h2 {
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    header h1 {
+        font-size: 25px;
+    }
+    
+    header h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        border: none;
+        display: block;
+    }
+    
+    header .item {
+        width: auto;
+    }
+    
+    header h1 {
+        margin: 0 50%;
+    }
+}
