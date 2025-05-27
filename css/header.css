@@ -30,8 +30,6 @@ header h1 {
 
 header h2 {
     color: #fff;
-    font-weight: 900;
-    -webkit-text-stroke: 0.5px #000;
 }
 
 @media (max-width: 1024px) {
